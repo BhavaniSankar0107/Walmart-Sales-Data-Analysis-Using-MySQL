@@ -42,6 +42,13 @@ Feature Engineering: Additional columns such as time of day, day name, and month
 
 Exploratory Data Analysis (EDA): Various analyses are conducted to answer specific questions and gain insights into sales trends, customer behavior, and product performance.
 
+## Calculations used
+1. Cost Of Goods Sold (COGS): Unit Price * Quantity 
+2. VAT: 5% of COGS 
+3. Total Revenue: VAT + COGS 
+4. Gross Income: Total Revenue - COGS 
+5. Gross Margin Percentage: Gross Income / Total Revenue 
+
 ## Questions
 ### Generic:
 1. How many unique branches are there in the dataset? [Easy] 
